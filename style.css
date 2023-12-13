@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar .active p{
+    color: #000000;
+}
+
+#navbar{
+    display: flex;
+    margin:50px auto;
+    padding: 20px;
+    width: 700px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+
+#navbar .right{
+    width: 250px;
+    display: flex;
+    text-align: right;
+}
+
+#navbar .left a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#navbar .right a{
+    text-decoration: none;
+    color: #919191;
+}
+
+#formwelcome{
+    margin: 30px auto;
+    padding: 20px;
+    width: 700px;
+    height: 335px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#formwelcome h1{
+    margin-top: 60px;
+    font-size: 100px;
+}
+
+#formpertanyaan{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 700px;
+    height: 335px;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#formpertanyaan .text {
+    width: 45%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#formpertanyaan .text h2{
+    padding-bottom: 20px;
+}
+
+#formpertanyaan .text p{
+    font-size: 15px;
+    padding: 3px;
+}
+
+#formpertanyaan .button{
+    display: flex;
+    justify-content: center;
+}
+
+#formpertanyaan #action{
+    margin-top: 9px;
+    text-align: center;
+    width: 100px;
+}
+  
+#formpertanyaan .buttoni{
+    width: 50px;
+    height: 30px;
+    padding:10px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    margin-left: 80px;
+}
+
+#formpertanyaan .img {
+    width: 43%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#formpertanyaan .img img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+#formtentang{
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    width: 700px;
+    height: 335px;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#formtentang .text {
+    width: 45%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#formtentang .text h2{
+    padding-bottom: 20px;
+}
+
+#formtentang .text p{
+    font-size: 15px;
+    padding: 3px;
+    text-align: justify;
+}
+
+  
+#formtentang .img {
+    width: 43%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#formtentang .img iframe{
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+#hasil{
+    display: none;
+    margin: 20px auto;
+    padding: 20px;
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
